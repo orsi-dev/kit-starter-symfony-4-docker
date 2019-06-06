@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+app_lucky_number:
+    path: /mattia/bello
+    controller: App\Controller\MattiaController::ciao
+
+
+reder_page_with_twig:
+  path: /mattia/prova-twig
+  controller: App\Controller\MattiaController::demoTemplating
