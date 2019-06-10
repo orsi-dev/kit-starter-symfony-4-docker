@@ -8,11 +8,4 @@
 * yarn encore dev --watch <= AVVIO YARN   
 
 ### info per autenticazione su db
-
-<<<<<<< HEAD
-See https://symfony.com/doc/current/security.html
-=======
-See https://symfony.com/doc/current/security.html
-```
-
->>>>>>> 4fe5dd0ee413a352de78aa137376613391695edd
+https://symfony.com/doc/current/security.html
