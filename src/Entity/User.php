@@ -33,6 +33,16 @@ class User implements UserInterface
      */
     private $password;
 
+    /**
+     *  @ORM\Column(name="created_at", type="datetime", options={"default": "CURRENT_TIMESTAMP"})
+     */
+    private $created_at;
+
+    /**
+     *  @ORM\Column(name="updated_at", type="datetime", options={"default": "CURRENT_TIMESTAMP"})
+     */
+    private $updated_at;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -110,4 +120,5 @@ class User implements UserInterface
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
     }
+
 }

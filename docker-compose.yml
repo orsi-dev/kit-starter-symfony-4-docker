@@ -20,8 +20,10 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: sf4
-            MYSQL_USER: sf4
+            MYSQL_USER: admin
             MYSQL_PASSWORD: sf4
+        ports:
+            - 42333:3306
 
     php:
         build: .docker/php
